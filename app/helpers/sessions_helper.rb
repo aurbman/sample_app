@@ -8,7 +8,7 @@ module SessionsHelper
   def signed_in?
   	!current_user.nil?
   end
-  
+
   def current_user=(user)
     @current_user = user #check ch8 for this stuff
   end
